@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.co.krishnaconsultancy.cookmymeal.MainMenuActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_connect"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_connect"/>
+    <item
+        android:id="@+id/action_sync_now"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_sync_now"/>
+    <item
+        android:id="@+id/action_auto_sync"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_auto_sync"
+        android:checkable="true"/>
+    
+</menu>

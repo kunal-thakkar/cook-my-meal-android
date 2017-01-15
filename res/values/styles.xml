@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="header" parent="@style/TextAppearance.AppCompat.Light.Base.SearchResult.Title">
+        <item name="android:textColor">#229175</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+	</style>
+	<style name="subheader" parent="@style/TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#1679b3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+	</style>
+	<style name="content" parent="@style/TextAppearance.AppCompat.Light.Base.SearchResult">
+	    <item name="android:singleLine">false</item>
+	    <item name="android:ellipsize">marquee</item>
+	    <item name="android:gravity">top</item>	</style>
+	<style name="nutrientsHeader" parent="@style/TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle">
+	    <item name="android:padding">1dp</item>
+        <item name="android:textColor">#229175</item>
+   	    <item name="android:singleLine">true</item>
+	    <item name="android:ellipsize">marquee</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:background">@drawable/border</item>	</style>
+	<style name="nutrientsValue"  parent="@style/TextAppearance.AppCompat.Light.Base.SearchResult">
+	    <item name="android:padding">1dp</item>
+	  	<item name="android:singleLine">true</item>
+	    <item name="android:ellipsize">marquee</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:background">@drawable/border</item>
+	</style>
+</resources>
